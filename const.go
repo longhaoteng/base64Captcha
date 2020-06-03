@@ -12,7 +12,7 @@ const (
 	//TxtAlphabet characters for alphabet.
 	TxtAlphabet = "ABCDEFGHJKMNOQRSTUVXYZabcdefghjkmnoqrstuvxyz"
 	//TxtSimpleCharaters simple numbers and alphabet
-	TxtSimpleCharaters = "13467ertyiadfhjkxcvbnERTYADFGHJKXCVBN"
+	TxtSimpleCharaters = "13467ertyadfhjkxcvbnERTYADFGHJKXCVBN"
 	//TxtChineseCharaters makes characters in chinese
 	TxtChineseCharaters = "的一是在不了有和人这中大为上个国我以要他" +
 		"时来用们生到作地于出就分对成会可主发年动" +

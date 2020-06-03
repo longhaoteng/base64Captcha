@@ -49,5 +49,5 @@ func (c *Captcha) Verify(id, answer string, clear bool) (match bool) {
 	vv := c.Store.Get(id, clear)
 	//fix issue for some redis key-value string value
 	vv = strings.TrimSpace(vv)
-	return vv == strings.TrimSpace(answer)
+	return strings.ToLower(vv) == strings.ToLower(strings.TrimSpace(answer))
 }
